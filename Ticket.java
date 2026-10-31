@@ -6,7 +6,7 @@ public class Ticket {
     private float dineroRecibido;
     private float cambio;
     
-    //El constructor de la clase Ticket que recibe los parametros pro1, pro2 y dineroRecibido para inicializar los atributos de la clase y calcular el total y el cambio
+  
     public Ticket(Producto pro1, Producto pro2, float dineroRecibido) {
         this.pro1 = pro1;
         this.pro2 = pro2;
@@ -14,7 +14,6 @@ public class Ticket {
         this.dineroRecibido = dineroRecibido;
         this.cambio = dineroRecibido - this.total;
     }
-    //Los metodos para obtener los valores y que no se puedan modificar los valores de los atributos de la clase Ticket
     public Producto getpro1() {
         return pro1;
     }
@@ -22,7 +21,7 @@ public class Ticket {
     public Producto getpro2() {
         return pro2;
     }
-    //El metodo toString() que devuelve una cadena de texto con la informacion del ticket de compra
+    
     @Override 
     public String toString() {
         String str = "==== Ticket de Compra ====\n" +
