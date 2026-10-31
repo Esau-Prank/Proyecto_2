@@ -62,7 +62,7 @@ public class Producto {
 
 
 
-    //El metodo toString() que devuelve una cadena de texto con la informacion del producto
+    //Este metodo lo que devuelve una cadena de texto con la informacion del producto
     @Override
     public String toString() {
         String str = "Producto: " + nombre + ", Departamento: " + departamento + ", Precio: $" + precio;
