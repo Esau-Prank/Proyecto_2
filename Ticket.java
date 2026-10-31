@@ -21,7 +21,7 @@ public class Ticket {
     public Producto getpro2() {
         return pro2;
     }
-    //Metodo
+
     @Override 
     public String toString() {
         String str = "==== Ticket de Compra ====\n" +
